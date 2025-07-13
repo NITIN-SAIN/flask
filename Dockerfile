@@ -1,10 +1,10 @@
 FROM python:3.9-slim
 
-WORKDIR/app
+WORKDIR /app
 
 RUN pip install flask
 
-COPY..
+COPY . .
 
 EXPOSE 5000
 
